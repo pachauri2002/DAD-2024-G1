@@ -1,7 +1,5 @@
 server:
-  port: 7070
-
-
+  port: 7071
 
 
 spring:
@@ -11,8 +9,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/noetipo/DAD-2024-G1.git # ruta del repositorio git
+          uri: https://github.com/pachauri2002/DAD-2024-G1.git # ruta del repositorio git
           searchPaths: config-data
           default-label: main
-
-
+          #username:
+          #password:
+  security:
+    user:
+      name: root
+      password: 123456
